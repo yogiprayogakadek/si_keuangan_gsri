@@ -5,9 +5,9 @@
                     <li class="<?= url_is('') ? 'active' : '' ?>">
                         <a href="<?= base_url('') ?>"><i class="iconsminds-shop-4"></i> Dashboard</a>
                     </li>
-                    <li class="<?= url_is('peminjaman') ? 'active' : '' ?>">
+                    <!-- <li class="<?= url_is('peminjaman') ? 'active' : '' ?>">
                         <a href="#"><i class="iconsminds-user"></i> Peminjam</a>
-                    </li>
+                    </li> -->
                     <li class="<?= url_is('/uang-masuk*') ? 'active' : (url_is('/uang-keluar*') ? 'active' : '') ?>">
                         <a href="#keuangan"><i class="iconsminds-money-bag"></i> <span>Keuangan</span></a>
                     </li>

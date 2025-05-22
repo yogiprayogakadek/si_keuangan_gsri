@@ -47,11 +47,13 @@
         <?php endif ?>
         <div class="card">
             <div class="position-absolute card-top-buttons">
+                <?php if(session()->get('role') == 'Bendahara') : ?>
                 <a href="<?= site_url(route_to('uangkeluar.create')) ?>">
                     <button class="btn btn-header-primary">
                         <i class="simple-icon-plus"></i> Tambah Data
                     </button>
                 </a>
+                <?php endif ?>
                 <button class="btn btn-header-primary btn-modal">
                     <i class="glyph-icon iconsminds-printer"></i> Cetak Data
                 </button>
@@ -67,7 +69,9 @@
                             <th>Tanggal Penerimaan</th>
                             <th>Keterangan</th>
                             <th>User</th>
+                            <?php if(session()->get('role') == 'Bendahara') : ?>
                             <th>Aksi</th>
+                            <?php endif ?>
                         </tr>
                     </thead>
                     <tbody>
@@ -79,6 +83,7 @@
                                 <td><?= esc($data['tanggal']) ?></td>
                                 <td><?= esc($data['keterangan']) ?></td>
                                 <td><?= esc($data['username']) ?></td>
+                                <?php if(session()->get('role') == 'Bendahara') : ?>
                                 <td>
                                     <a href="<?= site_url(route_to('uangkeluar.edit', $data['id'])) ?>">
                                         <button type="button" class="btn btn-primary btn-sm mb-1">
@@ -92,6 +97,7 @@
                                         </button>
                                     </form>
                                 </td>
+                                <?php endif ?>
                             </tr>
                         <?php endforeach ?>
                     </tbody>

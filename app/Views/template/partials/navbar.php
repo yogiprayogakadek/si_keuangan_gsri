@@ -21,7 +21,7 @@
                     <rect x="0.5" y="15.5" width="25" height="1" />
                 </svg></a>
         </div>
-        <a class="navbar-logo" href="Dashboard.Default.html"><span class="logo d-none d-xs-block"></span>
+        <a class="navbar-logo" href="<?= site_url(route_to('dashboard')) ?>"><span class="logo d-none d-xs-block"></span>
             <span class="logo-mobile d-block d-xs-none"></span></a>
         <div class="navbar-right">
             <div class="header-icons d-inline-block align-middle">
@@ -47,15 +47,15 @@
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false">
-                    <span class="name">Sarah Kortney</span>
-                    <span><img alt="Profile Picture" src="<?= base_url() ?>assets/img/profiles/l-1.jpg" /></span>
+                    <span class="name"><?= session()->get('username') ?></span>
+                    <span><img alt="Profile Picture" src="<?= base_url() ?>assets/img/profiles/user.webp" /></span>
                 </button>
                 <div class="dropdown-menu dropdown-menu-right mt-3">
-                    <a class="dropdown-item" href="#">Account</a>
+                    <!-- <a class="dropdown-item" href="#">Account</a>
                     <a class="dropdown-item" href="#">Features</a>
                     <a class="dropdown-item" href="#">History</a>
-                    <a class="dropdown-item" href="#">Support</a>
-                    <a class="dropdown-item" href="#">Sign out</a>
+                    <a class="dropdown-item" href="#">Support</a> -->
+                    <a class="dropdown-item" href="<?= site_url(route_to('logout')) ?>">Sign out</a>
                 </div>
             </div>
         </div>

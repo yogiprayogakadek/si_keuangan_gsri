@@ -143,7 +143,7 @@ class UangKeluarController extends BaseController
                         'jumlah'     => $jumlah,
                         'tujuan'     => $this->request->getPost('tujuan'),
                         'keterangan' => $this->request->getPost('keterangan'),
-                        'user_id'    => 2
+                        'user_id'    => session()->get('user_id')
                     ]
                 );
                 return redirect()->to('/uang-keluar')->with('success', 'Data berhasil diupdate.');
