@@ -1,10 +1,10 @@
-<script src="<?= base_url() ?>assets/js/vendor/jquery-3.3.1.min.js"></script>
-<script src="<?= base_url() ?>assets/js/vendor/bootstrap.bundle.min.js"></script>
-<script src="<?= base_url() ?>assets/js/vendor/perfect-scrollbar.min.js"></script>
-<script src="<?= base_url() ?>assets/js/vendor/mousetrap.min.js"></script>
+<script src="<?= base_url() ?>assets/js/vendors/jquery-3.3.1.min.js"></script>
+<script src="<?= base_url() ?>assets/js/vendors/bootstrap.bundle.min.js"></script>
+<script src="<?= base_url() ?>assets/js/vendors/perfect-scrollbar.min.js"></script>
+<script src="<?= base_url() ?>assets/js/vendors/mousetrap.min.js"></script>
 <script src="<?= base_url() ?>assets/js/dore.script.js"></script>
 <script src="<?= base_url() ?>assets/js/scripts.js"></script>
-<!-- <script src="<?= base_url() ?>assets/js/vendor/datatables.min.js"></script> -->
+<!-- <script src="<?= base_url() ?>assets/js/vendors/datatables.min.js"></script> -->
 <script src="https://cdn.datatables.net/2.3.0/js/dataTables.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 

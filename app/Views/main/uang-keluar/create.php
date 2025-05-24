@@ -25,7 +25,7 @@
                 <form action="<?= site_url(route_to('uangkeluar.store')) ?>" method="post">
                     <?= csrf_field() ?>
                     <div class="form-group">
-                        <label for="tanggal">Tanggal Penerimaan Uang</label> 
+                        <label for="tanggal">Tanggal Pengeluaran Uang</label> 
                         <input type="date" name="tanggal" class="form-control <?= session('errors.tanggal') ? 'is-invalid' : '' ?>" id="tanggal" value="<?= old('tanggal') ?>" max="<?= date('Y-m-d') ?>"> 
 
                         <?php if (session('errors.tanggal')) : ?>

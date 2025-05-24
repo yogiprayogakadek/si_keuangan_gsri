@@ -67,7 +67,7 @@ class UangMasukController extends BaseController
                 'jumlah'     => preg_replace('/[^\d]/', '', $this->request->getPost('jumlah')),
                 'sumber'     => $this->request->getPost('sumber'),
                 'keterangan' => $this->request->getPost('keterangan'),
-                'user_id'    => 1
+                'user_id'    => session()->get('user_id')
             ]);
 
             return redirect()->to('/uang-masuk')->with('success', 'Data berhasil disimpan.');

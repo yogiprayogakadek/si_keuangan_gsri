@@ -26,7 +26,7 @@
                     <?= csrf_field() ?>
                     <div class="form-group">
                         <input type="text" name="id" value="<?= $data['id'] ?>" hidden>
-                        <label for="tanggal">Tanggal Penerimaan Uang</label> 
+                        <label for="tanggal">Tanggal Pengeluaran Uang</label> 
                         <input type="date" name="tanggal" class="form-control <?= session('errors.tanggal') ? 'is-invalid' : '' ?>" id="tanggal" value="<?= esc($data['tanggal']) ?>" max="<?= date('Y-m-d') ?>"> 
 
                         <?php if (session('errors.tanggal')) : ?>

@@ -95,11 +95,12 @@ body.background main .container {
 }
 
 .logo-single {
-  width: 110px;
-  height: 35px;
-  background: url(../logos/white.svg) no-repeat;
+  width: 100%;
+  height: 6rem;
+  background: url(../img/logos/logo.jpg) no-repeat;
   background-position: center center;
   display: inline-block;
+  background-size: contain;
   margin-bottom: 60px;
 }
 

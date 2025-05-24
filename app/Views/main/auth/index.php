@@ -5,7 +5,7 @@
 
 <body class="background no-footer ltr rounded">
 
-    <div class="fixed-background" style="opacity: 1;"></div>
+    <!-- <div class="fixed-background" style="opacity: 1;"></div> -->
     <main style="opacity: 1;" class="default-transition">
         <div class="container">
             <div class="row h-100">
@@ -21,9 +21,7 @@
                             <p class="white mb-0">Sistem Informasi<br>Pengelolaan Keuangan</p>
                         </div>
                         <div class="form-side">
-                            <a href="<?= site_url(route_to('login')) ?>">
-                                <span class="logo-single"></span>
-                            </a>
+                            <span class="logo-single"></span>
                             <h6 class="mb-4">Login</h6>
                             <form method="post" action="<?= site_url(route_to('login.process')) ?>">
                                 <label class="form-group has-float-label mb-4">

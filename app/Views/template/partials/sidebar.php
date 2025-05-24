@@ -8,9 +8,11 @@
                 <!-- <li class="<?= url_is('peminjaman') ? 'active' : '' ?>">
                     <a href="#"><i class="iconsminds-user"></i> Peminjam</a>
                 </li> -->
+                <?php if(session()->get('role') == 'Bendahara') : ?>
                 <li class="<?= url_is('/uang-masuk*') ? 'active' : (url_is('/uang-keluar*') ? 'active' : '') ?>">
                     <a href="#keuangan"><i class="iconsminds-money-bag"></i> <span>Keuangan</span></a>
                 </li>
+                <?php endif ?>
                 <li class="print-menu">
                     <a href="javascript:void(0);"><i class="simple-icon-printer"></i> Cetak Laporan</a>
                 </li>

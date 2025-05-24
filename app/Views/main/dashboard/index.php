@@ -23,7 +23,7 @@
                     <img src="<?= base_url() ?>assets/img/logos/logo.jpg" class="img-thumbnail">
 
                     <h5 class="mt-5"><strong>GEREJA SANTAPAN ROHANI INDONESIA DENPASAR</strong></h5>
-                    <h3>Sistem Informasi Penjualan</h3>
+                    <h3>Sistem Informasi Pengelolaan Keuangan</h3>
                 </div>
             </div>
         </div>
@@ -113,8 +113,8 @@
 <?= $this->endSection() ?>
 
 <?= $this->section('script') ?>
-<script src="assets/js/vendor/Chart.bundle.min.js"></script>
-<script src="assets/js/vendor/chartjs-plugin-datalabels.js"></script>
+<script src="assets/js/vendors/Chart.bundle.min.js"></script>
+<script src="assets/js/vendors/chartjs-plugin-datalabels.js"></script>
 <!-- Adapter Luxon -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/luxon@3"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1"></script> -->

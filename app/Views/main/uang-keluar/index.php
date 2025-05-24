@@ -66,7 +66,7 @@
                             <th></th>
                             <th>Jumlah Uang</th>
                             <th>Tujuan</th>
-                            <th>Tanggal Penerimaan</th>
+                            <th>Tanggal Pengeluaran</th>
                             <th>Keterangan</th>
                             <th>User</th>
                             <?php if(session()->get('role') == 'Bendahara') : ?>
