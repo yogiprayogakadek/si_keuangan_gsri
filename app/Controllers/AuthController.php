@@ -36,7 +36,7 @@ class AuthController extends BaseController
                     'is_active' => $user['is_active'],
                     'logged_id' => true,
                 ]);
-                return redirect()->to('/');
+                return redirect()->to('/')->with('success', 'Berhasil login');
             } else {
                 return redirect()->back()->withInput()->with('error', 'Password salah');
             }

@@ -54,9 +54,9 @@
                     </button>
                 </a>
                 <?php endif ?>
-                <button class="btn btn-header-primary btn-modal">
+                <!-- <button class="btn btn-header-primary btn-modal">
                     <i class="glyph-icon iconsminds-printer"></i> Cetak Data
-                </button>
+                </button> -->
             </div>
             <div class="card-body">
                 <div class="card-title"><h3>Data Uang Masuk</h3></div>

@@ -49,8 +49,8 @@ body.background main .container {
 }
 
 .fixed-background {
-  background: url(https://dore-jquery.coloredstrategies.com/img/login/balloon-lg.jpg)
-    no-repeat center center fixed;
+  background: url(../img/backgorunds/background.jpg) no-repeat center center
+    fixed;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -1919,7 +1919,8 @@ button {
 .logo {
   width: 110px;
   height: 35px;
-  background: url(../logos/white.svg) no-repeat;
+  background: url(../img/logos/logo.jpg) no-repeat;
+  background-size: contain;
   background-position: center center;
   margin: 0 auto;
 }
@@ -5997,8 +5998,7 @@ div.dataTables_wrapper div.dataTables_filter input {
 
 .auth-card .image-side {
   width: 40%;
-  background: url(https://dore-jquery.coloredstrategies.com/img/login/balloon.jpg)
-    no-repeat center top;
+  background: url(../img/backgorunds/background.jpg) no-repeat center top;
   background-size: cover;
   padding: 80px 40px;
 }

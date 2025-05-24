@@ -42,8 +42,8 @@ body.background main .container {
   text-align: right;
 }
 .fixed-background {
-  background: url(https://dore-jquery.coloredstrategies.com/img/login/balloon-lg.jpg)
-    no-repeat center center fixed;
+  background: url(../img/backgorunds/background.jpg) no-repeat center center
+    fixed;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -82,7 +82,7 @@ body.background main .container {
 }
 .logo-single {
   width: 110px;
-  height: 35px;
+  height: 60px;
   background: url(../img/logos/logo.jpg) no-repeat;
   background-position: center center;
   display: inline-block;
@@ -1585,6 +1585,7 @@ button {
   height: 35px;
   background: url(../img/logos/logo.jpg) no-repeat;
   background-position: center center;
+  background-size: contain;
   margin: 0 auto;
 }
 @media (max-width: 767px) {
@@ -5004,8 +5005,7 @@ div.dataTables_wrapper div.dataTables_filter input {
 }
 .auth-card .image-side {
   width: 40%;
-  background: url(https://dore-jquery.coloredstrategies.com/img/login/balloon.jpg)
-    no-repeat center top;
+  background: url(../img/backgorunds/background.jpg) no-repeat center top;
   background-size: cover;
   padding: 80px 40px;
 }
