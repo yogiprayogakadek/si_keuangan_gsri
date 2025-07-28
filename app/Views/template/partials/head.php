@@ -19,4 +19,6 @@
     <script>
         const BASE_URL = "<?= base_url() ?>";
     </script>
+
+    <?= $this->renderSection('css') ?>
 </head>

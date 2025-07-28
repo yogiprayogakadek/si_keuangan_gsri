@@ -29,7 +29,7 @@ class UserSeeder extends Seeder
             ],
         ];
 
-        foreach($users as $user) {
+        foreach ($users as $user) {
             $this->db->table('users')->insert($user);
         }
     }
